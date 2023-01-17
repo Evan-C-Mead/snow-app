@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  {/* //  React.StrictMode is a dev tool. It will render every component in the app twice at the level it is applied */}
     <App />
   </React.StrictMode>
 );

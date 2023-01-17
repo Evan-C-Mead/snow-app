@@ -1,3 +1,9 @@
+body {
+  background-color: black;
+  /* background-color: #282c34; */
+  /* background-color: darkslategray; */
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +38,36 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.hello {
+  color: #59a523;
+  /* color: black; */
+  /* color:#282c34; */
+  /* color: darkslategray; */
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.day {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: medium;
+}
+
+.clock {
+  color: white;
+  /* color: black; */
+  /* color:#282c34; */
+  /* color: darkslategray; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  margin: 0;
 }
