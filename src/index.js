@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  {/* //  React.StrictMode is a dev tool. It will render every component in the app twice at the level it is applied */}
+  {/* React.StrictMode is a dev tool. It will render every component in the app twice at the level it is applied */}
     <App />
   </React.StrictMode>
 );
