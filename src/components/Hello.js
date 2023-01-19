@@ -15,9 +15,29 @@ export default function Hello() {
         return () => clearInterval(randomName);
     },)
 
+    const date = new Date();
+    const hrs = date.getHours();
+    let greeting;
+
+    if (hrs < 4) {
+        greeting = "You're a night owl";
+    } 
+    else if (hrs < 12) {
+        greeting = "Good morning";
+    }
+    else if (hrs < 17) {
+        greeting = "Good afternoon";
+    }
+    else if (hrs < 22) {
+        greeting = "Good evening";
+    }
+    else {
+        greeting = "Go to bed";
+    }
+
     return (
         <div className="hello">
-            <h1>HELLO {helloName}!</h1>
+            <h1>{greeting.toLocaleUpperCase()} {helloName}!</h1>
         </div>
     )
 }
