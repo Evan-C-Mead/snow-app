@@ -55,11 +55,6 @@ body {
   display: inline-flex;
 }
 
-/* .hello > h1:first-child {
-  margin-right: 10px;
-} */
-
-
 .day {
   color: white;
   font-family: Arial, Helvetica, sans-serif;

@@ -22,11 +22,15 @@ export default function Hello() {
     if (hrs < 4) {
         greeting = "You're a night owl";
     } 
-    else if (hrs < 12) {
+    else if (hrs < 11) {
         greeting = "Good morning";
+    }
+    else if (hrs < 13) {
+        greeting = "Lunch time";
     }
     else if (hrs < 17) {
         greeting = "Good afternoon";
+
     }
     else if (hrs < 22) {
         greeting = "Good evening";
