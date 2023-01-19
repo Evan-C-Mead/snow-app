@@ -30,7 +30,6 @@ export default function Hello() {
     }
     else if (hrs < 17) {
         greeting = "Good afternoon";
-
     }
     else if (hrs < 22) {
         greeting = "Good evening";
