@@ -1,5 +1,6 @@
 body {
-  background-color: black;
+  /* background-color: black; */
+  background-color: #032D42;
   /* background-color: #282c34; */
   /* background-color: darkslategray; */
 }
@@ -46,7 +47,8 @@ body {
 
 .hello > h1 {
   /* color: #59a523; */
-  color: #86ED78;
+  /* color: #86ED78; */
+  color: white;
   /* color: black; */
   /* color:#282c34; */
   /* color: darkslategray; */
@@ -58,7 +60,8 @@ body {
 }
 
 .day {
-  color: white;
+  /* color: white; */
+  color: #86ED78;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 5px;
   margin-bottom: 0;
@@ -67,8 +70,8 @@ body {
 }
 
 .clock {
-  /* color: white; */
-  color: #86ED78;
+  color: white;
+  /* color: #86ED78; */
   /* color: black; */
   /* color:#282c34; */
   /* color: darkslategray; */
