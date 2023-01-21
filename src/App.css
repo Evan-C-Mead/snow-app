@@ -45,38 +45,78 @@ body {
   }
 }
 
-.hello > h1 {
-  /* color: #59a523; */
-  /* color: #86ED78; */
+.navbar-brand {
+  padding: .25rem .05rem .20rem .05rem;
+  display: flex;
+  align-content: center;
+  /* background-color: #282c34; */
+  /* background-color: #DBDBDB; */
+  background-color: #4F4F4F;
+}
+
+.navbar-title {
   color: white;
-  /* color: black; */
-  /* color:#282c34; */
-  /* color: darkslategray; */
-  margin-top: 20px;
-  margin-bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  padding-left: 1vw;
+  height: 20px;
+}
+
+.nav {
+  background-color: #4F4F4F;
+  /* background-color: #032D42; */
+  /* background-color: #DBDBDB; */
+  padding: 0;
+  /* border: 0; */
+}
+
+.nav-hr {
+  color: #86ED78;
+  margin: 0;
+  border-top: 2px solid;
+}
+
+.nav-container {
+  padding: 0;
+}
+
+.logo {
+  background-color: #4F4F4F;
+  /* background-color: #DBDBDB; */
+  /* background-color: #282c34; */
+}
+
+.hello > h2 {
+  /* color: white; */
+  color: #86ED78;
+  margin-top: .50rem;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
   display: inline-flex;
 }
 
 .day {
-  /* color: white; */
-  color: #86ED78;
+  color: white;
+  /* color: #86ED78; */
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 5px;
   margin-bottom: 0;
   font-size: medium;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .clock {
-  color: white;
-  /* color: #86ED78; */
-  /* color: black; */
-  /* color:#282c34; */
-  /* color: darkslategray; */
+  /* color: white; */
+  color: #86ED78;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
-  font-weight: bold;
-  margin: 0;
+  font-size: medium;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-bottom: 0;;
 }
+
+/* .clock-div {
+  display: inline-flex;
+} */

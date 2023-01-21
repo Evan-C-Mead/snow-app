@@ -13,7 +13,7 @@ export default function Clock() {
 
     useEffect(() => {
         const date = new Date();
-        const options = { weekday: 'long', month: 'long', day: 'numeric' };
+        const options = { weekday: 'long', day: 'numeric', month: 'long'};
         setDay(date.toLocaleDateString(undefined, options).toLocaleUpperCase())
     }, [])
 

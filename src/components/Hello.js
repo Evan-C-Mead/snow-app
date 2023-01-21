@@ -23,7 +23,7 @@ export default function Hello() {
         greeting = "You're a night owl";
     } 
     else if (hrs < 11) {
-        greeting = "Good morning";
+        greeting = "Good morning,";
     }
     else if (hrs < 13) {
         greeting = "Lunch time";
@@ -32,7 +32,7 @@ export default function Hello() {
         greeting = "Good afternoon";
     }
     else if (hrs < 22) {
-        greeting = "Good evening";
+        greeting = "Good evening,";
     }
     else {
         greeting = "Go to bed";
@@ -40,7 +40,7 @@ export default function Hello() {
 
     return (
         <div className="hello">
-            <h1>{greeting.toLocaleUpperCase()} {name}!</h1>
+            <h2>{greeting.toLocaleUpperCase()} {name}!</h2>
         </div>
     )
 }
