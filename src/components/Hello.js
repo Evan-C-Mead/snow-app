@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Card from 'react-bootstrap/Card';
 
 export default function Hello() {
     const names = ["Pod #1", "Ray", "TJ", "Brantley", "Colleen", "Kasie", "Hunter", "Miz", "Christopher", "Amber", "Marvin", "Lakenya", "Taj", "Tony", "Stephen", "Jeff", "Jess", "Evan", "Friends"];
@@ -21,7 +22,7 @@ export default function Hello() {
 
     if (hrs < 4) {
         greeting = "You're a night owl";
-    } 
+    }
     else if (hrs < 11) {
         greeting = "Good morning,";
     }
@@ -40,7 +41,11 @@ export default function Hello() {
 
     return (
         <div className="hello">
-            <h2>{greeting.toLocaleUpperCase()} {name}!</h2>
+            <Card className="hello-card text-center">
+                <Card.Body className="hello-card-body">
+                    <h5>{greeting.toLocaleUpperCase()} {name}!</h5>
+                </Card.Body>
+            </Card>
         </div>
     )
 }
