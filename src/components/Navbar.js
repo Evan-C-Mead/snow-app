@@ -16,8 +16,8 @@ export default function Nav() {
 
     useEffect(() => {
         const date = new Date();
-            const options = { weekday: 'long', day: '2-digit', month: 'short', year: 'numeric' };
-            setDay(date.toLocaleDateString(undefined, options).toLocaleUpperCase())
+        const options = { weekday: 'long', day: '2-digit', month: 'short', year: 'numeric' };
+        setDay(date.toLocaleDateString(undefined, options).toLocaleUpperCase())
     }, [])
 
     return (

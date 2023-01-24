@@ -1,7 +1,5 @@
 body {
-  /* background-color: black; */
   background-color: #032D42;
-  /* background-color: #282c34; */
 }
 
 .App {
@@ -49,8 +47,6 @@ body {
   margin: 0;
   display: flex;
   align-content: center;
-  /* background-color: #282c34; */
-  /* background-color: #DBDBDB; */
   background-color: #4F4F4F;
 }
 
@@ -64,10 +60,7 @@ body {
 
 .nav {
   background-color: #4F4F4F;
-  /* background-color: #032D42; */
-  /* background-color: #DBDBDB; */
   padding: 0;
-  /* border: 0; */
 }
 
 .nav-hr {
@@ -88,6 +81,10 @@ body {
   background-color: #4F4F4F;
 }
 
+.hello {
+  margin-top: .50rem;
+}
+
 .hello-card {
   padding: 0;
   border: 0;
@@ -95,48 +92,40 @@ body {
 }
  
 .hello-card-body {
-  /* background-color: #4F4F4F; */
   background-color: #032D42;
   padding: 0;
 }
 
 .hello-card-body > h5 {
-  /* color: white; */
-  color: #86ED78;
+  color: #DBDBDB;
   background-color: #4F4F4F;
   font-family: Arial, Helvetica, sans-serif;
-  /* font-weight: lighter;
-  font-size: large; */
-  /* margin-top: 1px; */
   margin-bottom: 0;
   padding-top: .10rem;
   padding-bottom: .10rem;
   padding-left: .25rem;
   padding-right: .25rem;
-  border: 1px groove #DBDBDB;
+  border: 1px groove #86ED78;
   border-radius: 10px 10px 10px 10px;
   display: inline-flex;
 }
 
 .day {
-  /* color: white; */
   color: #DBDBDB;
-  /* color: #86ED78; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   align-self: center;
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-top: .25rem;
+  margin-right: .25rem;
   margin-bottom: 0;
 }
 
 .clock {
-  /* color: white; */
   color: #86ED78;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   align-self: center;
-  margin-top: 5px;
+  margin-top: .25rem;
   margin-bottom: 0;
 }
 
@@ -151,12 +140,40 @@ body {
 
 .name-row {
   margin: 0;
+  justify-content:space-evenly;
 }
 
 .name-col {
-  margin-top: 1.25rem;
+  margin-top: .75rem;
+  margin-bottom: .50rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .name-card {
-  /* margin-top: 10px; */
+
+  background-color: #4F4F4F;
+}
+
+.name-card-img {
+  background-color: #DBDBDB;
+  padding: .25rem;
+  border-bottom: 2px ridge #86ED78;
+}
+
+.name-card-body {
+  padding-top: .30rem;
+  padding-bottom: .25rem;
+}
+
+.name-card-title {
+  color: #DBDBDB;
+  margin-bottom: .25rem;
+}
+
+.name-card-text {
+  color: #86ED78;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  align-self: center;
 }
